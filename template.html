@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Page Title</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <style type='text/css'>
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+
+            table caption {
+                font-size: 2em;
+                font-weight: bold;
+                margin: 1em 0;
+            }
+
+            th,
+            td {
+                border: 1px solid #999;
+                text-align: center;
+                padding: 20px 0;
+            }
+
+            table thead tr {
+                background-color: #008c8c;
+                color: #fff;
+            }
+
+            table tbody tr:nth-child(odd) {
+                background-color: #eee;
+            }
+
+            table tbody tr:hover {
+                background-color: #ccc;
+            }
+
+            table tbody tr td:first-child {
+                color: #f40;
+            }
+
+            table tfoot tr td {
+                text-align: right;
+                padding-right: 20px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <span>Hello:</span>
+        <br />
+        <br />
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;以下是你本月的弹性福利点数详情</span>
+        <br />
+        <br />
+        <table>
+            <thead>
+                <tr>
+                    <td>序号</td>
+                    <td>姓名</td>
+                    <td>年限</td>
+                    <td>职级</td>
+                    <td>职位</td>
+                    <td>讲师点数</td>
+                    <td>早到</td>
+                    <td>知识分享</td>
+                    <td>TASK数量最多</td>
+                    <td>解决TASK最多</td>
+                    <td>奖惩点数</td>
+                    <td>本月总点数</td>
+                    <td>本月旅游点数</td>
+                    <td>本月生活点数</td>
+                    <td>上月剩余旅游点数</td>
+                    <td>上月剩余生活点数</td>
+                    <td>本月兑换旅游点数</td>
+                    <td>本月兑换生活点数</td>
+                    <td>旅游点数剩余</td>
+                    <td>生活点数剩余</td>
+                </tr>
+            </thead>
+            <tbody>
+                <td>${序号}</td>
+                <td>${姓名}</td>
+                <td>${年限点数}</td>
+                <td>${职级点数}</td>
+                <td>${职位点数}</td>
+                <td>${讲师点数}</td>
+                <td>${早到}</td>
+                <td>${知识分享}</td>
+                <td>${TASK数量最多}</td>
+                <td>${解决TASK最多}</td>
+                <td>${奖惩点数}</td>
+                <td>${本月总点数}</td>
+                <td>${本月旅游点数}</td>
+                <td>${本月生活点数}</td>
+                <td>${上月剩余旅游点数}</td>
+                <td>${上月剩余生活点数}</td>
+                <td>${本月兑换旅游点数}</td>
+                <td>${本月兑换生活点数}</td>
+                <td>${旅游点数剩余}</td>
+                <td>${生活点数剩余}</td>
+            </tbody>
+        </table>
+    </body>
+    <br />
+    <br />
+    <span>ERIC行政部（ERIC Office）</span>
+</html>

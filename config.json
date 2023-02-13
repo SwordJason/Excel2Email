@@ -1,0 +1,12 @@
+{
+    "mail": {
+        "smtp": "smtp.163.com",
+        "email": "xxxx@xxxx.com",
+        "password": "xxxxxxxx",
+        "subject": "2023-01工资条",
+        "toEmail": "邮箱",
+        "log": "姓名"
+    },
+    "excel": "./工资表202301.xlsx",
+    "html": "template.html"
+}
